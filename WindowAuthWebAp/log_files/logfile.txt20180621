@@ -1,0 +1,12 @@
+2018-06-21 15:14:42,829 [14] ERROR FrameWork.Platform.LDAP [(null)] - AuthenticateUser() Error
+System.SystemException: Connection.freeWriteSemaphore(-2): semaphore not owned by any thread
+   於 Novell.Directory.Ldap.Connection.freeWriteSemaphore(Int32 msgId)
+   於 Novell.Directory.Ldap.Connection.connect(String host, Int32 port, Int32 semaphoreId)
+   於 Novell.Directory.Ldap.LdapConnection.Connect(String host, Int32 port)
+   於 FrameWork.Platform.LDAP.AuthenticateUser(String as_UserID, String as_UserPWD)
+2018-06-21 15:15:18,846 [17] ERROR FrameWork.Platform.LDAP [(null)] - AuthenticateUser() Error
+System.SystemException: Connection.freeWriteSemaphore(-2): semaphore not owned by any thread
+   於 Novell.Directory.Ldap.Connection.freeWriteSemaphore(Int32 msgId)
+   於 Novell.Directory.Ldap.Connection.connect(String host, Int32 port, Int32 semaphoreId)
+   於 Novell.Directory.Ldap.LdapConnection.Connect(String host, Int32 port)
+   於 FrameWork.Platform.LDAP.AuthenticateUser(String as_UserID, String as_UserPWD)

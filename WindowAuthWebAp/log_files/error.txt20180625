@@ -1,0 +1,17 @@
+2018-06-25 17:22:30,519 [28] ERROR FrameWork.Platform.LDAP [(null)] - AuthenticateUser() Error
+System.NullReferenceException: ゼ盢ン把σ砞﹚ン磅︽砰
+    Novell.Directory.Ldap.Connection.connect(String host, Int32 port, Int32 semaphoreId)
+    Novell.Directory.Ldap.LdapConnection.Connect(String host, Int32 port)
+    FrameWork.Platform.LDAP.AuthenticateUser(String as_UserID, String as_UserPWD)  D:\MoneySQ╰参\LdapTest\Framework.Platform\Framework.Platform.LDAP.cs: ︽ 81
+2018-06-25 17:26:47,608 [26] ERROR FrameWork.Platform.LDAP [(null)] - AuthenticateUser() Error
+LdapException: (91) Connect Error
+2018-06-25 17:27:39,709 [33] ERROR FrameWork.Platform.LDAP [(null)] - AuthenticateUser() Error
+LdapException: (91) Connect Error
+2018-06-25 17:28:37,645 [33] ERROR FrameWork.Platform.LDAP [(null)] - AuthenticateUser() Error
+LdapException: (91) Connect Error
+LdapException: Server Message: Connection closed by the application disconnecting
+2018-06-25 17:37:15,023 [73] ERROR FrameWork.Platform.LDAP [(null)] - AuthenticateUser() Error
+System.NullReferenceException: ゼ盢ン把σ砞﹚ン磅︽砰
+    Novell.Directory.Ldap.Connection.connect(String host, Int32 port, Int32 semaphoreId)
+    Novell.Directory.Ldap.LdapConnection.Connect(String host, Int32 port)
+    FrameWork.Platform.LDAP.AuthenticateUser(String as_UserID, String as_UserPWD)  D:\MoneySQ╰参\LdapTest\Framework.Platform\Framework.Platform.LDAP.cs: ︽ 82

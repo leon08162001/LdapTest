@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LdapTestApplication", "LdapTestApplication\LdapTestApplication.csproj", "{064F3CDE-74FD-441B-91FF-B5E29708C216}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Framework.Platform", "Framework.Platform\Framework.Platform.csproj", "{C6FE88D5-936D-449F-A24C-CE006EBE3474}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WindowAuthWebAp", "WindowAuthWebAp\WindowAuthWebAp.csproj", "{83DCEA1F-0F29-4FEF-B1A7-1A2A631EA303}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{064F3CDE-74FD-441B-91FF-B5E29708C216}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{064F3CDE-74FD-441B-91FF-B5E29708C216}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{064F3CDE-74FD-441B-91FF-B5E29708C216}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{064F3CDE-74FD-441B-91FF-B5E29708C216}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C6FE88D5-936D-449F-A24C-CE006EBE3474}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C6FE88D5-936D-449F-A24C-CE006EBE3474}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C6FE88D5-936D-449F-A24C-CE006EBE3474}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C6FE88D5-936D-449F-A24C-CE006EBE3474}.Release|Any CPU.Build.0 = Release|Any CPU
+		{83DCEA1F-0F29-4FEF-B1A7-1A2A631EA303}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{83DCEA1F-0F29-4FEF-B1A7-1A2A631EA303}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{83DCEA1F-0F29-4FEF-B1A7-1A2A631EA303}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{83DCEA1F-0F29-4FEF-B1A7-1A2A631EA303}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
